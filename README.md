@@ -13,22 +13,17 @@ npm install --save simple-react-search
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import { useMyHook } from 'simple-react-search'
+import { useReactSearch } from "simple-react-search";
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>{example}</div>
-  )
-}
+  const searchFunction = useReactSearch(searchMetadata, ["listofkeys"]);
+  // searchFunction will accept one string input query and return list of object which match with query.
+  return <div>{example}</div>;
+};
 ```
 
 ## License
 
 MIT © [satish358](https://github.com/satish358)
-
----
-
-This hook is created using [create-react-hook](https://github.com/hermanya/create-react-hook).

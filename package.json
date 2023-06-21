@@ -1,10 +1,10 @@
 {
   "name": "simple-react-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple react hook which provide easy search from search metadata",
-  "author": "satish358",
+  "author": "Satish Mankar",
   "license": "MIT",
-  "repository": "satish358/simple-react-search",
+  "repository": "https://github.com/satish358/simple-react-search",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
